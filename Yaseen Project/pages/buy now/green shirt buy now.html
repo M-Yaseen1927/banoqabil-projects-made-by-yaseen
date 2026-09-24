@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Now - Clothing Store</title>
+    <link rel="stylesheet" href="../../assets/buynow-style.css" />
+    <link
+      rel="shortcut icon"
+      href="../../images/logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Clothing Store</h1>
+    </header>
+
+    <div class="order-container">
+      <h2>Place Your Order</h2>
+
+      <form action="submit-order.php" method="POST">
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        />
+
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="e.g. 03001234567"
+          required
+        />
+
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email (optional)"
+        />
+
+        <label for="product">Select Product:</label>
+        <select id="product" name="product">
+          <option value="Green Shirt">Green Shirt</option>
+        </select>
+
+        <label for="address">Delivery Address:</label>
+        <textarea
+          id="address"
+          name="address"
+          rows="3"
+          placeholder="Enter your complete delivery address"
+          required
+        ></textarea>
+
+        <button type="submit">Confirm Order</button>
+      </form>
+
+      <div class="links-container">
+        <a href="../green shirt.html">&#8592; Back to Product</a>
+        <br />
+        <a href="../../index.html">Back to Home</a>
+      </div>
+    </div>
+
+    <footer>&copy; 2025 Clothing Store. All rights reserved.</footer>
+  </body>
+</html>

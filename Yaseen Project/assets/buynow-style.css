@@ -1,0 +1,129 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f5f0;
+  color: #2c3e50;
+}
+
+header {
+  background: linear-gradient(135deg, #11382b 0%, #1b4d3e 100%);
+  color: #f7f5f0;
+  padding: 2em 1em;
+  text-align: center;
+  border-bottom: 4px solid #d4af37;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: #f7f5f0;
+}
+
+.order-container {
+  max-width: 650px;
+  margin: 40px auto;
+  background: #ffffff;
+  border: 1px solid #e6e1d6;
+  border-radius: 16px;
+  padding: 35px;
+  box-shadow: 0 8px 25px rgba(27, 77, 62, 0.08);
+}
+
+.order-container h2 {
+  color: #1b4d3e;
+  text-align: center;
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1b4d3e;
+  margin-bottom: -5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 15px;
+  box-sizing: border-box;
+  background-color: #fcfbfa;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1b4d3e;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(27, 77, 62, 0.1);
+}
+
+button[type="submit"] {
+  background-color: #1b4d3e;
+  color: #f7f5f0;
+  padding: 14px;
+  border: 1px solid #d4af37;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(27, 77, 62, 0.15);
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #d4af37;
+  color: #11382b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(212, 175, 55, 0.3);
+}
+
+.links-container {
+  text-align: center;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.links-container a {
+  color: #1b4d3e;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: color 0.2s ease;
+}
+
+.links-container a:hover {
+  color: #d4af37;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #14382c;
+  color: #b5a993;
+  text-align: center;
+  padding: 1.5em;
+  font-size: 14px;
+  border-top: 2px solid #d4af37;
+  margin-top: 60px;
+}
